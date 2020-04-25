@@ -28,6 +28,6 @@ DEBUG = True
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 # TODO IMPLEMENT DATABASE URL
-#SQLALCHEMY_DATABASE_URI = os.environ["DATABASE_URL"]
+SQLALCHEMY_DATABASE_URI = os.environ["DATABASE_URL"]
 # print(SQLALCHEMY_DATABASE_URI)
-SQLALCHEMY_DATABASE_URI = "postgresql://postgres:Brilltez@321@localhost/agency"
+#SQLALCHEMY_DATABASE_URI = "postgresql://postgres:Brilltez@321@localhost/agency"
